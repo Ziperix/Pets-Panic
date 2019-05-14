@@ -1,0 +1,32 @@
+body
+{
+    /* General */
+    margin-left: 0px;
+    margin-top: 0px;
+
+    /* Gradient */
+    background: #BC99FF;
+    background: -webkit-linear-gradient(bottom left, #BC99FF, #9CECFF);
+    background: -moz-linear-gradient(bottom left, #BC99FF, #9CECFF);
+    background: linear-gradient(bottom left, #BC99FF, #9CECFF);
+}
+
+.zakladkaOpcje
+{
+    /* General */
+    background-color:#6262ba;
+    height: 1080px;
+    width: 400px;
+
+    /* Shadows */
+    -webkit-box-shadow: -77px -15px 128px 86px rgba(118,110,201,1);
+    -moz-box-shadow: -77px -15px 128px 86px rgba(118,110,201,1);
+    box-shadow: -77px -15px 128px 86px rgba(118,110,201,1);
+
+    /* Gradient */
+    background: rgb(98,98,186);
+    background: -moz-radial-gradient(circle, rgba(98,98,186,1) 0%, rgba(49,49,135,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(98,98,186,1) 0%, rgba(49,49,135,1) 100%);
+    background: radial-gradient(circle, rgba(98,98,186,1) 0%, rgba(49,49,135,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6262ba",endColorstr="#313187",GradientType=1);
+}
